@@ -1,4 +1,9 @@
-# Allen
+# Allen Pavic Portfolio
+
+## View [Portfolio](https://alvics.github.io/Allen-Pavic/)
+
+## Angular 5 Project
+### Responsive Portfolio (no Bootstrap)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
 
