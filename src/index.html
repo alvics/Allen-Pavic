@@ -6,7 +6,7 @@
     <title>Allen Pavic Portfolio</title>
     <base href="/">
     <meta name="description" content="Allen Pavic Portfolio">
-    <meta name="keywords" content="allen pavic, portfolio, cv, webdesigner, gold coast webdites,web developer, wordpress, angular 5">
+    <meta name="keywords" content="allen pavic, portfolio, cv, webdesigner, gold coast websites, web developer, wordpress, angular">
     <meta name="author" content="Allen Pavic">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -15,23 +15,22 @@
 
 <body>
     <app-root></app-root>
-      <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
     <script>
-
-  // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyAk5cyY4nAMJIAVuKOcPJxSmO9TDXny66Y",
-        authDomain: "allen-portfolio.firebaseapp.com",
-        databaseURL: "https://allen-portfolio.firebaseio.com",
-        projectId: "allen-portfolio",
-        storageBucket: "",
-        messagingSenderId: "1012007408353"
-      };
-      firebase.initializeApp(config);
-
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAk5cyY4nAMJIAVuKOcPJxSmO9TDXny66Y",
+            authDomain: "allen-portfolio.firebaseapp.com",
+            databaseURL: "https://allen-portfolio.firebaseio.com",
+            projectId: "allen-portfolio",
+            storageBucket: "",
+            messagingSenderId: "1012007408353"
+        };
+        firebase.initializeApp(config);
 
 
-// When the user scrolls down 20px from the top of the document, show the button
+
+        // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {
             scrollFunction()
         };

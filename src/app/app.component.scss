@@ -81,11 +81,13 @@ header {
 // HERO STYLES
 .showcase {
     height: 500px;
-    background-image: linear-gradient(90deg, #0474bc, #32b3ed);
+    background-image: linear-gradient(90deg, #0474bc, black);
     display: flex;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
 }
 
 .showcase-container {
@@ -93,10 +95,27 @@ header {
 }
 
 .showcase-text {
-    font-size: calc(26px + 3vw);
+    font-size: calc(26px + 2vw);
     font-weight: 300;
     color: #fff;
     text-align: center;
+}
+
+.button {
+    background-color: #fff;
+    border: none;
+    color: #232323;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 // MAIN CONTENT STYLES
