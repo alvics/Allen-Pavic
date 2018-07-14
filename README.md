@@ -1,6 +1,6 @@
 # Allen Pavic Portfolio
 
-## View [Portfolio](https://alvics.github.io/Allen-Pavic/)
+## View [Portfolio](https://allen-portfolio.firebaseapp.com)
 
 ## Angular 5 Project
 ### Responsive Portfolio (no Bootstrap)
