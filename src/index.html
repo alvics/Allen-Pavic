@@ -15,9 +15,23 @@
 
 <body>
     <app-root></app-root>
-
+      <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
     <script>
-        // When the user scrolls down 20px from the top of the document, show the button
+
+  // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAk5cyY4nAMJIAVuKOcPJxSmO9TDXny66Y",
+        authDomain: "allen-portfolio.firebaseapp.com",
+        databaseURL: "https://allen-portfolio.firebaseio.com",
+        projectId: "allen-portfolio",
+        storageBucket: "",
+        messagingSenderId: "1012007408353"
+      };
+      firebase.initializeApp(config);
+
+
+
+// When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {
             scrollFunction()
         };
